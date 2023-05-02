@@ -20,6 +20,27 @@ body {
   align-content: center;
 }
 
+.section-sign-up {
+  display: flex;
+  color: white;
+  background: #1F2937;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-items-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-items-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .section-quote {
   background: #E5E7EB;
 }
