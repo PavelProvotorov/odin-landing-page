@@ -20,6 +20,27 @@ body {
   align-content: center;
 }
 
+.section-quote {
+  background: #E5E7EB;
+}
+
+blockquote > p {
+  text-align: left;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 0px;
+  margin: 0px;
+} 
+
+figcaption {
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
 ul {
   display: flex;
   list-style: none;
