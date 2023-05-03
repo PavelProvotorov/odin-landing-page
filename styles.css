@@ -24,9 +24,16 @@ body {
   display: flex;
   color: white;
   background: #1F2937;
-  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+}
+
+.img-right {
+  background-color: wheat;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .section-items-content {
@@ -58,6 +65,14 @@ figcaption {
   text-align: right;
   font-weight: bold;
   font-size: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
   padding: 0px;
   margin: 0px;
 }
