@@ -52,6 +52,11 @@ body {
   background: #E5E7EB;
 }
 
+.p-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
 blockquote > p {
   text-align: left;
   font-size: 36px;
@@ -70,10 +75,11 @@ figcaption {
 }
 
 button {
+  border-radius: 5px;
   background-color: #3882f6;
   color: white;
-  width: 100px;
-  padding: 0px;
+  width: 80px;
+  padding: 5px;
   margin: 0px;
 }
 
@@ -83,10 +89,16 @@ ul {
 }
 
 li {
+  
+}
 
+h3 {
+  font-size: 48px;
+  color: #F9FAF8;
+  padding: 0px;
+  margin: 0px;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }
