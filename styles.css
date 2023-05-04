@@ -33,6 +33,14 @@ body {
   align-content: center;
 }
 
+.img-right {
+  background-color: wheat;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
 .section-sign-up {
   display: flex;
   flex: 1;
@@ -40,13 +48,7 @@ body {
   background: #1F2937;
   justify-content: center;
   align-items: center;
-}
-
-.img-right {
-  background-color: wheat;
-  width: 100px;
-  height: 100px;
-  padding: 0px;
+  padding: 25px;
   margin: 0px;
 }
 
@@ -69,12 +71,13 @@ body {
   flex: 1;
   justify-content: center;
   align-content: center;
+  align-self: center;
   background: #E5E7EB;
 }
 
 .section-banner {
   display: flex;
-  flex: 1;
+  flex: 0;
   flex-direction: row;
   justify-content: center;
   align-content: center;
@@ -83,8 +86,8 @@ body {
   border-radius: 8px;
   border-color: none;
   border: none;
-  padding: 0px;
-  margin: 25px;
+  padding: 25px;
+  margin: 25px 0px 25px 0px;
 }
 
 .banner-button {
