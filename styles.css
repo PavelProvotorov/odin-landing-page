@@ -75,7 +75,25 @@ body {
 .section-banner {
   display: flex;
   flex: 1;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  background-color: red;
+  border-radius: 8px;
+  border-color: none;
+  border: none;
+  padding: 0px;
+  margin: 25px;
+}
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  padding: 8px;
+  margin: 0px;
 }
 
 .p-secondary {
@@ -107,6 +125,7 @@ button {
   background-color: #3882f6;
   color: white;
   width: 100px;
+  height: 30px;
   padding: 8px;
   margin: 0px;
 }
