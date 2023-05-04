@@ -1,6 +1,14 @@
+html {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
+  background-color:red;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .header {
@@ -10,6 +18,12 @@ body {
   font-size: 24px;
   color: white;
   text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .footer {
@@ -49,7 +63,14 @@ body {
 }
 
 .section-quote {
+  display: flex;
   background: #E5E7EB;
+}
+
+.section-banner {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 .p-secondary {
@@ -75,11 +96,13 @@ figcaption {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 8px;
+  border-color: none;
+  border: none;
   background-color: #3882f6;
   color: white;
-  width: 80px;
-  padding: 5px;
+  width: 100px;
+  padding: 8px;
   margin: 0px;
 }
 
