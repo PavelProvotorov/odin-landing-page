@@ -47,14 +47,16 @@ body {
   color: white;
   background: #1F2937;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 25px;
   margin: 0px;
+  gap: 25px;
 }
 
 .section-items-content {
   display: flex;
   flex: 1;
+  gap: 25px;
   justify-content: center;
   align-content: center;
 }
@@ -102,6 +104,18 @@ body {
 .p-secondary {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.img-big > img {
+  border-radius: 8px;
+  height: 256px;
+  width: 256px;
+}
+
+.img-small > img {
+  border-radius: 8px;
+  height: 128px;
+  width: 128px;
 }
 
 blockquote > p {
