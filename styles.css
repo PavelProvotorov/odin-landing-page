@@ -77,9 +77,7 @@ body {
 
 .section-banner {
   display: flex;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
+  flex: 0 1 auto;
   flex-direction: row;
   justify-content: center;
   align-content: center;
@@ -89,20 +87,19 @@ body {
   border-radius: 8px;
   border-color: none;
   border: none;
-  max-width: 512px;
+  width: 512px;
   margin: 25px 0px 25px 0px;
   padding: 25px;
   gap: 25px;
 }
 
 .banner-button {
-  display: flex;
-  justify-content: center;
-  align-content: center;
   align-self: center;
-  border: 5px;
-  border-color: #1F2937;
-  padding: 8px;
+  border: 2px solid;
+  border-color: #E5E7EB;
+  width: 100px;
+  height: 30px;
+  padding: 5px;
   margin: 0px;
 }
 
@@ -143,7 +140,6 @@ figcaption {
 
 button {
   border-radius: 8px;
-  border-color: none;
   border: none;
   background-color: #3882f6;
   color: white;
