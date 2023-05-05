@@ -2,6 +2,6 @@
 
 A simple landing page
 
-Github Pages: N/A
+Github Pages: https://pavelprovotorov.github.io/odin-landing-page/
 
 Odin Project: https://www.theodinproject.com/
