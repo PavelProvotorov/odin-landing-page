@@ -57,17 +57,17 @@ body {
 .section-content {
   display: flex;
   flex-wrap: wrap;
-  flex: 0;
+  flex: 0 1 auto;
   gap: 25px;
   flex-direction: row;
   justify-content: center;
-  align-content: center;
+  align-content: flex-end;
 }
 
 .section-quote {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
+  flex: 0;
   justify-content: center;
   align-content: center;
   align-self: center;
